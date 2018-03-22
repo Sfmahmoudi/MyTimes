@@ -8,7 +8,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 50px;
   padding-left: 30px;
   height: 80px;
   border-bottom-width: 1px;
@@ -16,8 +16,12 @@ header {
   border-bottom-color: rgb (0,0,0);
   background-color: white;
   border: 1px solid blue;
-
+  position: fixed;
+  width: 95%;
+  background-color: white;
+  z-index: 1;
 }
+
 nav span {
   display: inline-block;
   padding: 20px 10px;
@@ -32,8 +36,47 @@ nav span {
   flex-grow: 1;
   border: 1px solid black;
 }
-
+.content {
+  display: flex;
+  position: relative;
+  top: 80px;
+  border: 1px solid black;
+}
 .news {
   display: flex;
   border: 1px solid black;
+  margin: 0 10px;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: 20px 20px;
+}
+div {
+  border: 1px solid black;
+}
+
+.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+}
+.medium {
+  width: 300px;
+}
+.small {
+  width: 240px;
+}
+.mainstory {
+  display: block;
+  background-image: url("../Images/img-story-main.png");
+  height: 300px;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
