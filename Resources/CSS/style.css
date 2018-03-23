@@ -55,7 +55,7 @@ nav span {
   margin: 20px 20px;
 }
 div {
-  border: 1px solid black;
+  /* border: 1px solid red; */
 }
 
 .large {
@@ -69,7 +69,7 @@ div {
 .small {
   width: 240px;
 }
-.mainstory {
+.image-content {
   display: block;
   background-image: url("../Images/img-story-main.png");
   height: 300px;
@@ -77,6 +77,11 @@ div {
   font-weight: bold;
   font-size: 40px;
   color: white;
+}
+
+.story {
+  font-size: 17px;
+  font-family: Georgia;
   margin-top: 16px;
   margin-bottom: 16px;
 }
